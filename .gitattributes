@@ -1,0 +1,6 @@
+# Ensure all text files use LF line endings in the repo and are converted to CRLF on checkout (Windows)
+* text=auto
+
+# Specify line endings for specific file types
+*.sh eol=lf
+*.py eol=lf
